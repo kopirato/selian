@@ -122,9 +122,4 @@ const postReply = (client, message, replyTweet) => {
 }
 
 
-const fs = require('fs');
-const Promise = require('bluebird')
-
-module.exports = { auth, postReplyWithMedia, postReply };
-
 
